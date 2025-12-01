@@ -1,0 +1,14 @@
+{
+  "crons": [
+    {
+      "path": "/api/post-science",
+      "schedule": "0 12 * * *"
+    }
+  ],
+  "functions": {
+    "api//*.py": {
+      "runtime": "python3.12",
+      "excludeFiles": "{_pycache_/,.pyc,.pyo,*.pyd}"
+    }
+  }
+}
