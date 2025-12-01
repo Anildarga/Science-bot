@@ -6,9 +6,9 @@
     }
   ],
   "functions": {
-    "api//*.py": {
-      "runtime": "python3.12",
-      "excludeFiles": "{_pycache_/,.pyc,.pyo,*.pyd}"
+    "api/**/*.py": {
+      "runtime": "python3.9",
+      "excludeFiles": "{__pycache__/,*.pyc,*.pyo,*.pyd}"
     }
   }
 }
