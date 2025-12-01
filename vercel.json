@@ -1,4 +1,10 @@
 {
+  "crons": [
+    {
+      "path": "/api/science_bot",
+      "schedule": "0 12 * * *"
+    }
+  ],
   "functions": {
     "api/*.py": {
       "runtime": "python3.9"
